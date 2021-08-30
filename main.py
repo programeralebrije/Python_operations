@@ -179,3 +179,48 @@ c = 0
 
 c = a - b
 print ("c =",c)
+
+
+# Indentation
+
+my_message = "Hello World"
+print (my_message)
+
+person_money = 8
+
+if person_money >= 10:
+  print("This person can watch the movie")
+else:
+  print("Sorry, but you don't have enough money")
+
+#   elif
+
+person_age = 18
+
+if person_age >= 18:
+  print("I can watch an R-rated movie")
+elif person_age >= 13:
+  print("I can watch a PG13-rated movie")
+else:
+  print("I can watch a G-rated movie")
+
+
+  person_age = 13
+
+if person_age >= 13:
+  print("I can watch a PG13-rated movie")
+elif person_age >= 18:
+  print("I can watch an R-rated movie")
+else:
+  print("I can watch a G-rated movie")
+
+  person_age = 5
+
+if person_age >= 18:
+  print("I can watch an R-rated movie")
+elif person_age >= 13:
+  print("I can watch a PG13-rated movie")
+else:
+  print("I can watch a G-rated movie")
+
+#   Multiple Decision Making Blocks per Variable
