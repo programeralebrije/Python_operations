@@ -118,4 +118,4 @@ some_name = "joe" # lowercase j
 print(my_name == some_name)
 print(my_name.upper() == some_name.upper())
 
-
+# Logical Operators
