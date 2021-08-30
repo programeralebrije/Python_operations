@@ -224,3 +224,18 @@ else:
   print("I can watch a G-rated movie")
 
 #   Multiple Decision Making Blocks per Variable
+
+
+person_age = 15
+has_car = False
+mom_can_drive = True
+outcome = ""
+
+if person_age >= 18 and has_car:
+  outcome = "I can go and see an R-rated movie"
+elif person_age >= 13 and mom_can_drive:
+  outcome = "Mom can take me to see a PG13-rated movie"
+else:
+  outcome = "I'm stuck at home today"
+
+print(outcome)
