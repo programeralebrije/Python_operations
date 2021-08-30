@@ -119,3 +119,63 @@ print(my_name == some_name)
 print(my_name.upper() == some_name.upper())
 
 # Logical Operators
+
+
+# details of the person who wants to watch the movie
+person_age = 17
+person_money = 25
+
+# the requirements to watch the movie
+age_restriction = 18
+movie_price = 10
+
+# conditions
+is_old_enough = person_age >= age_restriction
+has_enough_money = person_money >= movie_price
+
+# two conditions combined using 'and'
+can_watch_movie = is_old_enough and has_enough_money
+print(can_watch_movie)
+
+# the output is False, because the person's age is less than the required age
+
+# Combining Logical Operators
+
+amount_of_money = 10
+is_a_friend = True
+
+
+result = (10 > 3) and (3 < 9) and ("this" != "that")
+can_hangout_with_me = amount_of_money >= 25 or is_a_friend
+print(can_hangout_with_me)
+
+person_age = 12
+is_old_enough = person_age >= 18
+
+must_leave = not is_old_enough
+print(must_leave)
+
+# output is True (must leave), because the person is NOT old enough (age < 18)
+
+my_age = 17
+my_money = 7
+is_friend = True
+has_food = False
+
+can_watch_movie = not has_food and ((my_age >= 18 and my_money >= 15) or (is_friend and my_money >= 5))
+
+print(can_watch_movie)
+
+a = 15
+b = 5
+c = 0
+
+c = a + b
+print("1. C =", c)
+
+a = 25
+b = 19
+c = 0
+
+c = a - b
+print ("c =",c)
